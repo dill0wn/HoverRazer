@@ -26,6 +26,6 @@ public class PopPopMothafuckah : MonoBehaviour {
 		//b.transform.LookAt(
 		
 		b.rigidbody.AddRelativeForce(0f, 0f, 100f, ForceMode.Impulse);
-		b.rigidbody.AddForce(rigidbody.velocity);
+		b.rigidbody.AddForce(rigidbody.velocity, ForceMode.Impulse);
 	}
 }
