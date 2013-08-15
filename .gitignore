@@ -4,7 +4,6 @@
 
 Library
 Library/*
-Assembly-*
 *.csproj
 *.sln
 *.userprefs
